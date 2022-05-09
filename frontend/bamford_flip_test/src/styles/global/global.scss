@@ -1,0 +1,84 @@
+//Custom Properties
+:root {
+  --mobile: 800px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+  text-size-adjust: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  line-height: 0;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  color: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  border: none;
+  border-radius: 0;
+  border-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  box-shadow: 0;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+// //Setting height to 100%
+// body,
+// #___gatsby,
+// #gatsby-focus-wrapper {
+//   height: 100%;
+// }
+
+//Focus Outline
+a:focus,
+button:focus,
+*:focus {
+  outline: none;
+}

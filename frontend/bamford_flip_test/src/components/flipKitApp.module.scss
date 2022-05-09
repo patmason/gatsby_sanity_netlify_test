@@ -1,0 +1,28 @@
+.wrapper {
+  background-color: sienna;
+  height: 100vh;
+}
+
+.flipper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: sienna;
+}
+
+.button {
+  position: fixed;
+  top: 50%;
+  background-color: bisque;
+  padding: 0.5em;
+  border-radius: 1em;
+  z-index: 1;
+  &.previousButton {
+    left: 1em;
+  }
+  &.nextButton {
+    right: 1em;
+  }
+}
